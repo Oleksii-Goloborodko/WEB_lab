@@ -1,0 +1,57 @@
+﻿* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding:0;
+}
+a {
+    color: cornflowerblue;
+    font-size: 15px;
+}
+body {
+    background: #0d0d0d;
+    color: white;
+}
+div {
+    margin: 0px 0px 0px 1400px;
+}
+b {
+    color: yellow
+}
+.S1 {
+    width: 694px;
+    height: 140px;
+    bottom: 0;
+    right: 0;
+    margin: 25px 100px 0px 500px;
+    float: left;
+}
+.S1M {
+    width: 306px;
+    height: 43px;
+    bottom: 0;
+    right: 0;
+    margin: 200px 100px 0px 500px;
+    float: left;
+}
+
+.FL {
+    width: 705px;
+    height: 125px;
+    bottom: 0;
+    right: 0;
+    margin: 25px 0px 0px 600px;
+    float: left;
+}
+.FLM {
+    width: 300px;
+    height: 43px;
+    bottom: 0;
+    right: 0;
+    margin: 100px 0px 0px 600px;
+
+}
+.test {
+    width: 422px;
+    height: 678px;
+    margin: 0px 0px 0px 0px;
+}
