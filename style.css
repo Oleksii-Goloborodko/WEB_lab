@@ -12,7 +12,7 @@ body {
     color: white;
 }
 div {
-    margin: 0px 0px 0px 1400px;
+    margin: 0px 0px 0px 1380px;
 }
 b {
     color: yellow
@@ -30,28 +30,174 @@ b {
     height: 43px;
     bottom: 0;
     right: 0;
-    margin: 200px 100px 0px 500px;
+    margin: 100px 100px 0px 500px;
     float: left;
 }
+
 
 .FL {
     width: 705px;
     height: 125px;
     bottom: 0;
     right: 0;
-    margin: 25px 0px 0px 600px;
     float: left;
+    margin: 25px 0px 0px 500px;
 }
 .FLM {
     width: 300px;
     height: 43px;
     bottom: 0;
     right: 0;
-    margin: 100px 0px 0px 600px;
-
+    float: left;
+    margin: 100px 0px 0px 500px;
 }
-.test {
-    width: 422px;
-    height: 678px;
+
+.ELECTR {
+    width: 705px;
+    height: 125px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 25px 0px 0px 500px;
+}
+.ELEC {
+    width: 300px;
+    height: 43px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 100px 0px 0px 500px;
+}
+.BOOM {
+    width: 705px;
+    height: 125px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 25px 0px 0px 500px;
+}
+.BOO {
+    width: 300px;
+    height: 43px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 100px 0px 0px 500px;
+}
+.PERFEC {
+    width: 705px;
+    height: 125px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 25px 0px 0px 500px;
+}
+.PER {
+    width: 300px;
+    height: 43px;
+    bottom: 0;
+    right: 0;
+    float: left;
+    margin: 100px 0px 0px 500px;
+}
+.test3 {
+    width: 516px;
+    height: 706px;
+}
+
+.amim1 {
+    width: 426px;
+    height: 634px;
     margin: 0px 0px 0px 0px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+.amim2 {
+    width: 456px;
+    height: 627px;
+    margin: 0px 0px 0px 0px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.amim3 {
+    width: 449px;
+    height: 627px;
+    margin: 0px 0px 0px 0px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.amim4 {
+    width: 498px;
+    height: 623px;
+    margin: 0px 0px 0px 0px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.amim5 {
+    width: 497px;
+    height: 634px;
+    margin: 0px 0px 0px 0px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
