@@ -17,6 +17,10 @@ div {
 b {
     color: yellow
 }
+.size {
+    width: 450px;
+    height: 3449px;
+}
 .S1 {
     width: 694px;
     height: 140px;
@@ -33,7 +37,10 @@ b {
     margin: 100px 100px 0px 500px;
     float: left;
 }
-
+.test2 {
+    width: 516px;
+    height: 706px;
+}
 
 .FL {
     width: 705px;
@@ -50,6 +57,10 @@ b {
     right: 0;
     float: left;
     margin: 100px 0px 0px 500px;
+}
+.test1 {
+    width: 516px;
+    height: 706px;
 }
 
 .ELECTR {
@@ -68,6 +79,10 @@ b {
     float: left;
     margin: 100px 0px 0px 500px;
 }
+.test3 {
+    width: 516px;
+    height: 706px;
+}
 .BOOM {
     width: 705px;
     height: 125px;
@@ -83,6 +98,10 @@ b {
     right: 0;
     float: left;
     margin: 100px 0px 0px 500px;
+}
+.test4 {
+    width: 516px;
+    height: 706px;
 }
 .PERFEC {
     width: 705px;
@@ -100,14 +119,14 @@ b {
     float: left;
     margin: 100px 0px 0px 500px;
 }
-.test3 {
+.test5 {
     width: 516px;
     height: 706px;
 }
 
 .amim1 {
-    width: 426px;
-    height: 634px;
+    width: 420px;
+    height: 629px;
     margin: 0px 0px 0px 0px;
     animation-duration: 3s;
     animation-name: slidein;
@@ -200,4 +219,6 @@ b {
         margin-left: 0%;
         width: 100%;
     }
+}
+@media all and (width: 320px) {
 }

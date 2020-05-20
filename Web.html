@@ -6,11 +6,19 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Natus Vincere</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-       
     </style>
 </head>
 <body>
+    <form action="" onsubmit="return validate();">
+        <input type="text" id="userName">
+        <input type="password" id="userPassword">
+
+        <button type="submit">Отправить</button>
+    </form>
+
+
     <header>
         <table>
             <tr>
@@ -32,7 +40,7 @@
 
     <main>
         <section>
-            <header>
+            <header class="size">
                 <h3><strong>Состав команды</strong></h3>
                 <div class="FLM">
                     <table>
@@ -54,141 +62,141 @@
                         чемпионом мира, а также принял участие в финале четырех Major-турниров. В 2015 и 2016 годах попадал в топ-20 рейтинга HLTV.org.
                     </p>
                 </div>
-                <div class="test">
+                <div class="test1">
                     <b>FLAMIE</b>
                     <p><i>ЕГОР ВАСИЛЬЕВ</i></p>
                     <div class="amim1">
                         <figure>
                             <img src="1.png" width="420" height="629" />
                         </figure>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="S1M">
-                        <table>
-                            <tr>
-                                <th>СТРАНА, ГОРОД:</th>
-                                <th><img src="https://navi.gg/source/flags/ua.png" width="16" height="11" /></th>
-                                <th>Украина, Киев</th>
+                <div class="S1M">
+                    <table>
+                        <tr>
+                            <th>СТРАНА, ГОРОД:</th>
+                            <th><img src="https://navi.gg/source/flags/ua.png" width="16" height="11" /></th>
+                            <th>Украина, Киев</th>
 
-                            </tr>
-                        </table>
-                        <p>ДАТА РОЖДЕНИЯ: 02.10.1997 (22 года)</p>
+                        </tr>
+                    </table>
+                    <p>ДАТА РОЖДЕНИЯ: 02.10.1997 (22 года)</p>
+                </div>
+
+                <div class="S1">
+                    <p>
+                        Александр Костылев — игрок Natus Vincere, который в составе «жёлто-чёрных» добился ряда важных достижений
+                        и сумел вырасти до настоящей суперзвезды на мировой просцене Counter-Strike: Global Offensive! В 2016 году, после перехода
+                        из Team Liquid в NAVI, Саша вместе с новой командой одержал победу на ESL One NY. В 2018 году, демонстрируя невероятное индивидуальное
+                        мастерство, s1mple помог Рождённым Побеждать выиграть четыре турнира. Кроме того, по версии HLTV.org, Саша был признан лучшим игроком мира в 2018 году.
+                    </p>
+                </div>
+
+                <div class="test2">
+                    <b>S1MPLE</b>
+                    <p><i>АЛЕКСАНДР КОСТЫЛЕВ</i></p>
+                    <div class="amim2">
+                        <figure>
+                            <img src="2.png" width="456" height="627" />
+                        </figure>
                     </div>
+                </div>
 
-                    <div class="S1">
-                        <p>
-                            Александр Костылев — игрок Natus Vincere, который в составе «жёлто-чёрных» добился ряда важных достижений
-                            и сумел вырасти до настоящей суперзвезды на мировой просцене Counter-Strike: Global Offensive! В 2016 году, после перехода
-                            из Team Liquid в NAVI, Саша вместе с новой командой одержал победу на ESL One NY. В 2018 году, демонстрируя невероятное индивидуальное
-                            мастерство, s1mple помог Рождённым Побеждать выиграть четыре турнира. Кроме того, по версии HLTV.org, Саша был признан лучшим игроком мира в 2018 году.
-                        </p>
+                <div class="ELEC">
+                    <table>
+                        <tr>
+                            <th>СТРАНА, ГОРОД:</th>
+                            <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
+                            <th>Россия, Казань</th>
+
+                        </tr>
+                    </table>
+                    <p>ДАТА РОЖДЕНИЯ: 02.09.1998 (21 год)</p>
+                </div>
+
+                <div class="ELECTR">
+                    <p>
+                        Денис начал выступать на профессиональном уровне в середине 2015 года, присоединившись к команде Evolution.
+                        С января по сентябрь 2016-го electronic находился в «подвешенном» состоянии, сменив за это время три команды:
+                        Rebels, Team Empire и NokSuKao. Впоследствии Дениса пригласили в FlipSid3 Tactics: 21 сентября 2016 года он заменил
+                        в этой команде Shara. В ноябре 2017-го electronic перешёл в организацию Natus Vincere, где завоевал пять чемпионских
+                        титулов и по окончании 2018 года занял четвертое место в рейтинге HLTV.org.
+                    </p>
+                </div>
+                <div class="test3">
+                    <b>ELECTRONIC</b>
+                    <p><i>ДЕНИС ШАРИПОВ</i></p>
+                    <div class="amim3">
+                        <figure>
+                            <img src="3.png" width="449" height="627" />
+                        </figure>
                     </div>
+                </div>
 
-                    <div>
-                        <b>S1MPLE</b>
-                        <p><i>АЛЕКСАНДР КОСТЫЛЕВ</i></p>
-                        <div class="amim2">
-                            <figure>
-                                <img src="2.png" width="456" height="627" />
-                            </figure>
-                            </div>
-                        </div>
+                <div class="BOO">
+                    <table>
+                        <tr>
+                            <th>СТРАНА, ГОРОД:</th>
+                            <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
+                            <th>Россия, Москва</th>
 
-                        <div class="ELEC">
-                            <table>
-                                <tr>
-                                    <th>СТРАНА, ГОРОД:</th>
-                                    <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
-                                    <th>Россия, Казань</th>
+                        </tr>
+                    </table>
+                    <p>ДАТА РОЖДЕНИЯ: 20.12.1998 (21 год)</p>
+                </div>
 
-                                </tr>
-                            </table>
-                            <p>ДАТА РОЖДЕНИЯ: 02.09.1998 (21 год)</p>
-                        </div>
+                <div class="BOOM">
+                    <p>
+                        Карьеру профессионального игрока Кирилл начал в команде Elements Pro Gaming. После нескольких
+                        месяцев выступления под знаменами EPG Boombl4 и два его тиммейта перешли в QBF. Долгое время коллектив
+                        показывал посредственные результаты, пока в октябре 2017 года не занял второе место на CIS-квалификации
+                        ELEAGUE Boston Major. На этот турнир QBF приехали в числе аутсайдеров, но, несмотря на все прогнозы, команда
+                        произвела настоящий фурор и попала в топ-8 чемпионата, гарантируя себе статус «Легенды». В середине 2018 года
+                        Кирилл перешёл в Winstrike, где занимал позицию капитана и выступал вплоть до перехода в Natus Vincere.
+                    </p>
+                </div>
 
-                        <div class="ELECTR">
-                            <p>
-                                Денис начал выступать на профессиональном уровне в середине 2015 года, присоединившись к команде Evolution.
-                                С января по сентябрь 2016-го electronic находился в «подвешенном» состоянии, сменив за это время три команды:
-                                Rebels, Team Empire и NokSuKao. Впоследствии Дениса пригласили в FlipSid3 Tactics: 21 сентября 2016 года он заменил
-                                в этой команде Shara. В ноябре 2017-го electronic перешёл в организацию Natus Vincere, где завоевал пять чемпионских
-                                титулов и по окончании 2018 года занял четвертое место в рейтинге HLTV.org.
-                            </p>
-                        </div>
-                        <div class="test2">
-                            <b>ELECTRONIC</b>
-                            <p><i>ДЕНИС ШАРИПОВ</i></p>
-                            <div class="amim3">
-                            <figure>
-                                <img src="3.png" width="449" height="627" />
-                            </figure>
-                                </div>
-                        </div>
+                <div class="test4">
+                    <b>BOOMBI4</b>
+                    <p><i>КИРИЛ МИХАЙЛОВ</i></p>
+                    <div class="amim4">
+                        <figure>
+                            <img src="4.png" width="498" height="623" />
+                        </figure>
+                    </div>
+                </div>
 
-                        <div class="BOO">
-                            <table>
-                                <tr>
-                                    <th>СТРАНА, ГОРОД:</th>
-                                    <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
-                                    <th>Россия, Москва</th>
+                <div class="PER">
+                    <table>
+                        <tr>
+                            <th>СТРАНА, ГОРОД:</th>
+                            <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
+                            <th>Россия, Омск</th>
 
-                                </tr>
-                            </table>
-                            <p>ДАТА РОЖДЕНИЯ: 20.12.1998 (21 год)</p>
-                        </div>
+                        </tr>
+                    </table>
+                    <p>ДАТА РОЖДЕНИЯ: 24.11.1999 (20 лет)</p>
+                </div>
 
-                        <div class="BOOM">
-                            <p>
-                                Карьеру профессионального игрока Кирилл начал в команде Elements Pro Gaming. После нескольких
-                                месяцев выступления под знаменами EPG Boombl4 и два его тиммейта перешли в QBF. Долгое время коллектив
-                                показывал посредственные результаты, пока в октябре 2017 года не занял второе место на CIS-квалификации
-                                ELEAGUE Boston Major. На этот турнир QBF приехали в числе аутсайдеров, но, несмотря на все прогнозы, команда
-                                произвела настоящий фурор и попала в топ-8 чемпионата, гарантируя себе статус «Легенды». В середине 2018 года
-                                Кирилл перешёл в Winstrike, где занимал позицию капитана и выступал вплоть до перехода в Natus Vincere.
-                            </p>
-                        </div>
-
-                        <div>
-                            <b>BOOMBI4</b>
-                            <p><i>КИРИЛ МИХАЙЛОВ</i></p>
-                            <div class="amim4">
-                            <figure>
-                                <img src="4.png" width="498" height="623" />
-                            </figure>
-                                </div>
-                        </div>
-
-                        <div class="PER">
-                            <table>
-                                <tr>
-                                    <th>СТРАНА, ГОРОД:</th>
-                                    <th><img src="https://navi.gg/source/flags/ru.png" width="16" height="11" /></th>
-                                    <th>Россия, Омск</th>
-
-                                </tr>
-                            </table>
-                            <p>ДАТА РОЖДЕНИЯ: 24.11.1999 (20 лет)</p>
-                        </div>
-
-                        <div class="PERFEC">
-                            <p>
-                                Илья Залуцкий — один из ярчайших примеров универсального игрока в Counter-Strike. До выхода
-                                CS:GO он на профессиональном уровне выступал и в Counter-Strike 1.6, и в Counter-Strike: Source.
-                                В характере Ильи присутствует множество важных для игрока в Сounter-Strike черт: настойчивость,
-                                уверенность в себе и хладнокровие. Залуцкий — один из тех игроков, которые всегда играют до конца, до победного раунда.
-                            </p>
-                        </div>
-                        <div class="test3">
-                            <b>PERFECTO</b>
-                            <p><i>ИЛЬЯ ЗАЛУЦКИЙ</i></p>
-                            <div class="amim5">
-                            <figure>
-                                <img src="5.png" width="497" height="634" />
-                            </figure>
-                                </div>
-                        </div>
-</header>
+                <div class="PERFEC">
+                    <p>
+                        Илья Залуцкий — один из ярчайших примеров универсального игрока в Counter-Strike. До выхода
+                        CS:GO он на профессиональном уровне выступал и в Counter-Strike 1.6, и в Counter-Strike: Source.
+                        В характере Ильи присутствует множество важных для игрока в Сounter-Strike черт: настойчивость,
+                        уверенность в себе и хладнокровие. Залуцкий — один из тех игроков, которые всегда играют до конца, до победного раунда.
+                    </p>
+                </div>
+                <div class="test5">
+                    <b>PERFECTO</b>
+                    <p><i>ИЛЬЯ ЗАЛУЦКИЙ</i></p>
+                    <div class="amim5">
+                        <figure>
+                            <img src="5.png" width="497" height="634" />
+                        </figure>
+                    </div>
+                </div>
+            </header>
 
         </section>
     </main>
@@ -235,6 +243,10 @@
             </ul>
         </nav>
     </footer>
-    
+    <script>
+   
+    </script>
+
+
 </body>
 </html> 
